@@ -1,5 +1,5 @@
 # Glossary
 
-## site security plan
+## system security plan
 
 A System Security Plan (SSP)
