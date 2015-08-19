@@ -7,5 +7,5 @@
    * [Operational Controls](federal/800-53/operational_controls.md)
        * [Awareness and Training](federal/800-53/awareness_and_training.md)
    * Technical Controls
-* DISA STIGs
+* [DISA STIGs](disa_stigs.md)
 
