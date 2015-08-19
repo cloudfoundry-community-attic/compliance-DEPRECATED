@@ -3,5 +3,6 @@ Management Controls aren't directly supported by Cloud Foundry, but here are a s
 
 
 {% include "./ca-assessments.md" %}
-
-{% include "./ca-assessments.md" %}
+{% include "./planning.md" %}
+{% include "./risk-assessment.md" %}
+{% include "./acquisition.md" %}
