@@ -8,5 +8,5 @@
        * [Awareness and Training](federal/800-53/awareness_and_training.md)
    * Technical Controls
 * [DISA STIGs](disa_stigs.md)
-* CIS Benchmark
+* [CIS Benchmark](cis_benchmark.md)
 
