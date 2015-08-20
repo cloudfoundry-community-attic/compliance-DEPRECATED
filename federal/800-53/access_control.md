@@ -7,4 +7,4 @@ CONTROL: The organization develops, disseminates, and periodically reviews/updat
 
 MAPPING: Cloud Foundry integrates with an organization's Identity Provider (IDP) which dictates further account management policies.
 
-DOCS: See [http://docs.pivotal.io/pivotalcf/getstarted/pcf-docs.html](http://docs.pivotal.io/pivotalcf/getstarted/pcf-docs.html)
+DOCS: See [https://github.com/cloudfoundry/uaa/blob/master/docs/UAA-LDAP.md](https://github.com/cloudfoundry/uaa/blob/master/docs/UAA-LDAP.md)
