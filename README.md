@@ -8,4 +8,4 @@ This book is developed in GitBook, and the latest version can be found at http:/
 The source code is at https://github.com/cloudfoundry-community/compliance 
 
 
-Pull Requests are greatly appreciated!
+_Pull Requests are greatly appreciated!_
