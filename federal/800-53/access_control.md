@@ -22,3 +22,16 @@
 * [http://docs.pivotal.io/pivotalcf/adminguide/uaa-user-management.html](http://docs.pivotal.io/pivotalcf/adminguide/uaa-user-management.html)
 * [http://docs.pivotal.io/pivotalcf/concepts/architecture/uaa.html](http://docs.pivotal.io/pivotalcf/concepts/architecture/uaa.html)
 * [https://github.com/cloudfoundry/uaa/blob/master/docs/Sysadmin-Guide.rst](https://github.com/cloudfoundry/uaa/blob/master/docs/Sysadmin-Guide.rst)
+
+
+<a name="ac-03"></a>
+### [AC-03: Access Enforcement](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-3)
+
+**CONTROL**: The information system enforces approved authorizations for logical access to information and system resources in accordance with applicable access control policies.
+
+**MAPPING**: Roles and Groups within Cloud Foundry are enforced both the at the Runtime layer and BOSH.
+
+**DOCS**:
+* [https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html](https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html)
+* [https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/organization_access_spec.rb](https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/organization_access_spec.rb)
+* [https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/space_access_spec.rb](https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/space_access_spec.rb)
