@@ -31,3 +31,18 @@
 
 **DOCS**:
 * [https://docs.cloudfoundry.org/concepts/security.html#logging](https://docs.cloudfoundry.org/concepts/security.html#logging)
+
+
+<a name="cm-06"></a>
+### [CM-06: Configuration Settings](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6)
+
+**CONTROL**: The organization:
+(i) Establishes and documents configuration settings for information technology products employed within the information system using [Assignment: organization-defined security configuration checklists] that reflect the most restrictive mode consistent with operational requirements;
+(ii) Implements the configuration settings;
+(iii) Identifies, documents, and approves any deviations from established configuration settings for [Assignment: organization-defined information system components] based on [Assignment: organization-defined operational requirements]; and
+(iv) Monitors and controls changes to the configuration settings in accordance with organizational policies and procedures.
+
+**MAPPING**: BOSH and Cloud Foundry default configurations are restrictive in their nature. Automated notification of changes can be set up in BOST to monitor changes.
+
+**DOCS**:
+* [https://bosh.io/docs/monitoring.html](https://bosh.io/docs/monitoring.html)
