@@ -46,3 +46,20 @@
 
 **DOCS**:
 * [https://bosh.io/docs/monitoring.html](https://bosh.io/docs/monitoring.html)
+
+
+<a name="cm-08"></a>
+### [CM-08: Information System Component Inventory](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-8)
+
+**CONTROL**: The organization:
+(a) Develops and documents an inventory of information system components that:
+  1. Accurately reflects the current information system;
+  2. Includes all components within the authorization boundary of the information system;
+  3. Is at the level of granularity deemed necessary for tracking and reporting; and
+  4. Includes [Assignment: organization-defined information deemed necessary to achieve effective information system component accountability]; and
+(b) Reviews and updates the information system component inventory [Assignment: organization-defined frequency].
+
+**MAPPING**: BOSH maintains an inventory of the underlying infrastructure along with all the configuration. Any changes need to be applied through the BOSH tool. The organization is responsible for establishing a recurrent review procedure of the current inventory. It is also possible to use third party tools to create reports on infrastructure changes to corroborate BOSH logs.
+
+**DOCS**:
+* [https://bosh.io/docs/sysadmin-commands.html#deployment](https://bosh.io/docs/sysadmin-commands.html#deployment)
