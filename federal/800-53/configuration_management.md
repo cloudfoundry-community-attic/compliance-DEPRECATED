@@ -13,3 +13,21 @@
 * [https://github.com/cloudfoundry/bosh/blob/master/CHANGELOG.md](https://github.com/cloudfoundry/bosh/blob/master/CHANGELOG.md)
 * [https://bosh.io/docs/deployment-manifest.html](https://bosh.io/docs/deployment-manifest.html)
 * [https://github.com/cloudfoundry/bosh/blob/master/bosh-stemcell/OS_IMAGES.md](https://github.com/cloudfoundry/bosh/blob/master/bosh-stemcell/OS_IMAGES.md)
+
+
+<a name="cm-03"></a>
+### [CM-03: Configuration Change Control](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-3)
+
+**CONTROL**: The organization:
+(i) Determines the types of changes to the information system that are configuration-controlled;
+(ii) Reviews proposed configuration-controlled changes to the information system and approves or disapproves such changes with explicit consideration for security impact analyses;
+(iii) Documents configuration change decisions associated with the information system;
+(iv) Implements approved configuration-controlled changes to the information system;
+(v) Retains records of configuration-controlled changes to the information system for [Assignment: organization-defined time period];
+(vi) Audits and reviews activities associated with configuration-controlled changes to the information system; and
+(vii) Coordinates and provides oversight for configuration change control activities through [Assignment: organization-defined configuration change control element (e.g., committee, board)] that convenes [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined configuration change conditions]].
+
+**MAPPING**: BOSH and Cloud Foundry maintain audit logs of all changes made to the platform. The organization needs to establish a review process for BOSH manifest and Cloud Foundry Runtime configuration changes.
+
+**DOCS**:
+* [https://docs.cloudfoundry.org/concepts/security.html#logging](https://docs.cloudfoundry.org/concepts/security.html#logging)
