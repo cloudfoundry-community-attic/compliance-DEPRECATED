@@ -1,10 +1,17 @@
 {
     "gitbook": "2.0.1",
-    "plugins": ["edit-link"],
+    "plugins": ["edit-link", "versions"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/cloudfoundry-community/compliance/edit/master/",
                 "label": "Edit This Page"
+            },
+            "versions": {
+              "gitbookConfigURL": "https://raw.githubusercontent.com/cloudfoundry-community/compliance/master/book.json",
+              "options": [
+                { "value": "http://cloud-foundry-community.gitbooks.io/cloud-foundry-certification-and-accreditation/", "text": "OSS Cloud Foundry" },
+                { "value": "http://cloud-foundry-community.gitbooks.io/cloud-foundry-certification-and-accreditation/", "text": "Pivotal Cloud Foundry Version 1.6.0", "selected": true }
+              ]
             }
     }
 }
