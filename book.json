@@ -1,6 +1,6 @@
 {
     "gitbook": "2.0.1",
-    "plugins": ["edit-link", "versions", "gitbookcode"],
+    "plugins": ["edit-link", "versions", "code_tomorrow_scheme"],
     "pluginsConfig": {
             "edit-link": {
                 "base": "https://github.com/cloudfoundry-community/compliance/edit/master/",
