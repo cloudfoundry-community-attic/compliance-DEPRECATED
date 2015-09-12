@@ -9,8 +9,8 @@
             "versions": {
               "gitbookConfigURL": "https://raw.githubusercontent.com/cloudfoundry-community/compliance/master/book.json",
               "options": [
-                { "value": "http://cloud-foundry-community.gitbooks.io/cloud-foundry-certification-and-accreditation/", "text": "OSS Cloud Foundry" },
-                { "value": "http://cloud-foundry-community.gitbooks.io/cloud-foundry-certification-and-accreditation/", "text": "Pivotal Cloud Foundry Version 1.6.0", "selected": true }
+                { "value": "http://cloud-foundry-community.gitbooks.io/cloud-foundry-certification-and-accreditation/content/", "text": "OSS Cloud Foundry" },
+                { "value": "http://cloud-foundry-community.gitbooks.io/cloud-foundry-certification-and-accreditation/content/", "text": "Pivotal Cloud Foundry Version 1.6.0", "selected": true }
               ]
             }
     }
