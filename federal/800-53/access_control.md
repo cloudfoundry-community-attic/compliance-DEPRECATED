@@ -35,3 +35,16 @@
 * [https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html](https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html)
 * [https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/organization_access_spec.rb](https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/organization_access_spec.rb)
 * [https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/space_access_spec.rb](https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/space_access_spec.rb)
+
+
+<a name="ac-06"></a>
+### [AC-06: Least Privilege](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-6)
+
+**CONTROL**: The organization employs the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) which are necessary to accomplish assigned tasks in accordance with organizational missions and business functions.
+
+**MAPPING**: Administrators are responsible for setting user roles that employ the concept of least privilege. Cloud Foundry has granular permissions for its runtime and it allows the setting of feature flags for its users.
+
+**DOCS**:
+* [http://docs.pivotal.io/pivotalcf/adminguide/uaa-user-management.html](http://docs.pivotal.io/pivotalcf/adminguide/uaa-user-management.html)
+* [https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html](https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html)
+* [https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/feature_flag_access_spec.rb](https://github.com/cloudfoundry/cloud_controller_ng/blob/master/spec/unit/access/feature_flag_access_spec.rb)
