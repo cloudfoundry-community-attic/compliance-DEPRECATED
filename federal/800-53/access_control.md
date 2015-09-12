@@ -1,7 +1,7 @@
 ## Access Control
 
 <a name="ac-01"></a>
-### [AC-01: Access Control Policy and Procedures][https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1]
+### [AC-01: Access Control Policy and Procedures](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1)
 
 **CONTROL**: The organization develops, disseminates, and periodically reviews/updates: (i) a formal, documented, access control policy that addresses purpose, scope, roles, responsibilities, and compliance; and (ii) formal, documented procedures to facilitate the implementation of the access control policy and associated access controls.
 
