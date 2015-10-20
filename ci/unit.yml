@@ -3,8 +3,6 @@ platform: linux
 
 image: docker:///ubuntu#14.04
 
-inputs:
-- name: my-repo
-
 run:
-  path: echo 'hello world'
+  path: echo 
+  args: ["hello world"]
